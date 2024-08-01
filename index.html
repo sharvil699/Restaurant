@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Frying Fish</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="icon" href="restraunt logo.jpeg">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+  #Fish:hover ~ #Menupicture{
+    content: url("https://static.wixstatic.com/media/2df8cc_015b2c676a50437bbb97dc831137cfd6~mv2.jpg/v1/crop/x_0,y_289,w_576,h_724/fill/w_530,h_666,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/%E6%B8%85%E7%82%92%E9%B1%BC%E7%89%87.jpg");
+  }
+  #Friedrice:hover ~ #Menupicture{
+    content: url("https://static.wixstatic.com/media/2df8cc_00ceab8ff9c34ef8a647381400283c31~mv2.jpg/v1/crop/x_0,y_116,w_3024,h_3800/fill/w_530,h_666,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/%E4%BB%80%E9%94%A6%E7%82%92%E9%A5%AD_JPG.jpg");
+  }
+  #Prawn:hover ~ #Menupicture{
+    content: url("https://static.wixstatic.com/media/2df8cc_a58084b08bee48628067c832f0a33773~mv2.jpg/v1/crop/x_0,y_103,w_396,h_498/fill/w_475,h_597,al_c,lg_1,q_80,enc_auto/%E6%A4%92%E7%9B%90%E8%84%86%E7%9A%AE%E8%99%BE.jpg");
+  }
+  #Eggplant:hover ~ #Menupicture{
+    content: url("https://static.wixstatic.com/media/2df8cc_3af3d275992b49d9bb3fe8985ff0dfcd~mv2.jpg/v1/crop/x_0,y_103,w_396,h_498/fill/w_475,h_597,al_c,lg_1,q_80,enc_auto/%E4%B9%9D%E5%B1%82%E5%A1%94%E8%8C%84%E5%AD%90.jpg");
+  }
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Frying fish catering</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="restraunt logo.jpeg" alt="Frying fish Logo" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Cuisine food</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="Sole Fish.webp" class="w3-round w3-image w3-opacity-min" alt="Chef's Special" width="400
+       " height="325">
+    </div>
+
+    <div style="margin-top: 200px;" class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Catering</h1><br>
+      <h5 class="w3-center">Tradition since 2015</h5>
+      <p class="w3-large">As a long-established Sichuan restaurant in Seattle
+
+        The hot fishing village has a variety of spicy and refreshing dishes
+
+        Many Sichuan cuisine lovers come here to eat.
+
+
+
+        In addition to traditional Sichuan cuisine
+
+        There are also pastries in the store
+
+        For example, Sichuan cold noodles, scallion pancakes
+
+        There are also various dishes that even those who don’t eat spicy food will applaud.</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+      <h4>Kung Pao Chicken</h4>
+      <p class="w3-text-grey">A varriant food with lots of peanuts and chicken mixed with lemon to make it juicy and tasty <em>15.95$</em>  per (3 kids or 2 adults)</p><br>
+
+      <h4 id="Fish">Stir Fried Fish w. White Sauce</h4>
+      <p class="w3-text-grey"> A dish with a lot of fish and it has doesn't have spice and tastes good. <em> 18.95$
+      </em></p><br>
+
+      <h4 id="Friedrice">House Special Fried Rice
+      (Chicken, Beef & Prawn)</h4>
+      <p class="w3-text-grey">A stir fried rice with variants and taste if you like their soya sauce it is a good fit. <em>13.95$</em></p><br>
+
+      <h4 id="Prawn">Salt & Pepper Prawns</h4>
+      <p class="w3-text-grey">It has a very salty and has a really good flavour if you like shrimp. <em>18.95$</em></p><br>
+
+      <h4 id="Eggplant">Eggplant w. Hot Garlic Sauce or Basil</h4>
+      <p class="w3-text-grey">It is a very tasty with a lot of hot sauce and flavour making it one of the best dishes.<em>14.95$</em></p>     
+      <img id="Menupicture" src="Chicken with nuts.webp" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:500px;position:absolute;right:10%;top:200%;">
+    </div>
+
+    <!-- <div class="w3-col l6 w3-padding-large">
+      <img src="Chicken with nuts.webp" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div> -->
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Frying Fish Chinese Restaurant, 1915 140th Ave NE D-1B, Bellevue, WA 98005</b></p>
+    <p>You can also contact us by phone (425) 643-1234 or Fax (425) 643-5555, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2024-07-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css& Frying Fish</a></p>
+</footer>
+
+</body>
+</html>
